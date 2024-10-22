@@ -99,3 +99,29 @@ a{
     text-decoration: none;
     color:rgb(3, 65, 3)
 }
+
+/* input:not(:placeholder-shown):not(:focus):invalid {
+    outline: none;
+    border: 1px solid red;
+    background-color: rgb(253, 194, 194);
+} */
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    margin-top: 3px;
+}
+  
+input:focus {
+    border: none;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+    outline: none;
+}
+  
+input:invalid:focus {
+    border: 2px solid rgb(255, 69, 100)
+}
+  
+input:valid {
+    border: rgb(25, 175, 25) 2px solid;
+}
